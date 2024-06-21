@@ -4,7 +4,7 @@ import { body } from "express-validator";
 import { param } from "express-validator";
 import User from "../models/Paciente.model";
 import Consulta from "../models/Consulta.model";
-
+//.
 const routerAuth = Router();
 
 routerAuth.post(
